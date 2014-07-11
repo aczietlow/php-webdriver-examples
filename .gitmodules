@@ -1,0 +1,3 @@
+[submodule "doc/Webdriver-API-Cheatsheet"]
+	path = doc/Webdriver-API-Cheatsheet
+	url = https://gist.github.com/7c4834f79a7afd920d8f.git
