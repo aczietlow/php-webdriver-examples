@@ -26,10 +26,12 @@ class BasicWebdriverTest extends PHPUnit_Framework_TestCase {
   /**
    * An example test using the find element methods.
    */
-  public function testFindTitleElement() {
+  public function testFindElementByID() {
     $this->webDriver1->get('http://palantir.net/');
     $this->assertContains('Palantir', $this->webDriver1->getTitle());
 
     $logo = $this->webDriver1->findElement(WebDriverBy::id('content'));
   }
+
+  //@TODO Add example tests for each of the selectors of /WebDriverBy.
 }
